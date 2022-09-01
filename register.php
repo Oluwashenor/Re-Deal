@@ -1,13 +1,15 @@
 <?php
 session_start();
 include './config/database.php';
+
+
 if (isset($_POST['submit'])){
     $username= $_POST['username'];
     $email= $_POST['email'];
     $password= $_POST['password'];
 
-
-    $query= mysqli_query($conn, "select * from `users` where email= '$email'");
+    $sqlQuery = "select * from `users` where email= '$email'";
+    $query= mysqli_query($conn, $sqlQuery);
     
     if (mysqli_num_rows($query) >0){
         echo "<script>alert('email already exists')</script>";
