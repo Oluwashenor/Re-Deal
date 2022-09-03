@@ -2,8 +2,6 @@
 session_start();
 include './config/database.php';
 
-
-
 if (isset($_POST['submit'])){
     if(empty($_POST['username'])){
     echo "<script>alert('Username is required')</script>";
@@ -106,11 +104,11 @@ if (isset($_POST['submit'])){
         <input type="password"  name="password" id=""><br>
         <label for="password-confirm">Confirm Password:</label><br>
         <input type="password"  name="password_confirmation" id=""><br>
+
        
         <input type="submit"  value="Submit" name="submit">
         <p>Already have an account? <a href="login.php">Login</a> </p>
     </form>
 
-    
 </body>
 </html>
