@@ -1,0 +1,36 @@
+
+        body{
+            background-color:lightgray
+        }
+        form{
+            margin: 0 auto;
+            width: 40vh;
+            margin-top: 20vh;
+            box-sizing: border-box;
+        }
+        h3{
+            font-family:'Courier New', Courier, monospace;
+        }
+        input[type="submit"]{
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: gray;
+            color:white ;
+            border: none;
+            height: 30px;
+            border-radius: 10px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        input[type="submit"]:hover{
+            background-color: whitesmoke;
+            color: black;
+            font-weight: bold;
+            transition: .4s ease-in;
+        }
