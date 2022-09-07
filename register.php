@@ -50,46 +50,7 @@ if (isset($_POST['submit'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <style>
-        body{
-            background-color:lightgray;
-            /* background-image:url('./images/idea.jfif');
-            background-repeat: no-repeat;
-            background-size: contain; */
-        }
-        form{
-            margin: 0 auto;
-            width: 40vh;
-            margin-top: 20vh;
-            box-sizing: border-box;
-        }
-        h3{
-            font-family:'Courier New', Courier, monospace;
-        }
-        input[type="submit"]{
-            margin-top: 10px;
-            cursor: pointer;
-            background-color: gray;
-            color:white ;
-            border: none;
-            height: 30px;
-            border-radius: 10px;
-
-        }
-        a{
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
-            color: brown;
-        }
-        input[type="submit"]:hover{
-            background-color: whitesmoke;
-            color: black;
-            font-weight: bold;
-            transition: .4s ease-in;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/register.css">
 </head>
 <body>
     <div class="img"></div>
