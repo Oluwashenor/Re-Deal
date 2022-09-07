@@ -1,0 +1,63 @@
+body{
+    background: lightgray;
+}
+
+
+.horse{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.horse h2{
+    margin-top: 5px;
+}
+
+p{
+    margin-top: 1px;
+    font-size: 18px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    margin: auto;
+    padding: 4px 0 16px;
+    margin-top: 10%;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+form label{
+    margin-top: 5px;
+    font-weight: 600;
+    margin-left: 12px;
+    font-size: 18px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+
+}
+
+form input,
+form select{
+    margin-left: 12px;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+
+form button{
+    background: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+form button:hover{
+    background:#ccc;
+}

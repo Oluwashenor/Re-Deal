@@ -1,6 +1,6 @@
 <?php
 session_start();
-include './config/database.php';
+include '.assets/config/database.php';
 
 if (isset($_POST['submit'])){
     if(empty($_POST['username'])){
@@ -53,7 +53,7 @@ if (isset($_POST['submit'])){
     <link rel="stylesheet" href="/styles/register.css">
 </head>
 <body>
-    <div class="img"></div>
+    
     <form action="" method="post">
         <h2>RE-IDEA</h2>
         <h3>Register Account</h3>
