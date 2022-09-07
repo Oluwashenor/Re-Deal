@@ -92,7 +92,7 @@ if (isset($_POST['submit'])){
     </style>
 </head>
 <body>
-    <div class="img"></div>
+    
     <form action="" method="post">
         <h2>RE-IDEA</h2>
         <h3>Register Account</h3>

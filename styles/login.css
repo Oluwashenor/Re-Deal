@@ -1,0 +1,42 @@
+
+        body{
+            background-color:lightgray
+        }
+        form{
+            margin: 0 auto;
+            width: 40vh;
+            margin-top: 20vh;
+            box-sizing: border-box;
+        }
+        h3{
+            font-family:'Courier New', Courier, monospace;
+        }
+        button{
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: gray;
+            color:white ;
+            border: none;
+            height: 30px;
+            border-radius: 10px;
+            width: 78%;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        button:hover{
+            background-color: whitesmoke;
+            color: black;
+            font-weight: bold;
+            transition: .4s ease-in;
+        }
+        input{
+            border-radius: 4px;
+            height: 20px;
+            
+        }
