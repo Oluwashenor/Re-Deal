@@ -1,6 +1,6 @@
 <?php
 session_start();
-include './config/database.php';
+include '.assets/config/database.php';
 
 if (isset($_POST['submit'])){
     if(empty($_POST['username'])){
