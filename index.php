@@ -1,5 +1,5 @@
 <?php
 
-header("location:register.php");
+header("location:login.php");
 
 ?>
