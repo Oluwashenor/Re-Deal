@@ -2,7 +2,6 @@
 session_start();
 include 'assets/config/database.php';
 if(isset($_POST['submit'])){
-   // $password= password_hash($_POST['password'], PASSWORD_DEFAULT);
 $email = $_POST['email'];
 $password = $_POST['password'];
 
