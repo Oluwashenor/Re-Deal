@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '.assets/config/database.php';
+include 'assets/config/database.php';
 
 if (isset($_POST['submit'])){
     if(empty($_POST['username'])){
@@ -29,11 +29,11 @@ if (isset($_POST['submit'])){
     if (mysqli_num_rows($query) >0){
         echo "<script>alert('email already exists')</script>";
     }else{
-        $password= password_hash($_POST['password'], PASSWORD_DEFAULT);
+        # $password= password_hash($_POST['password'], PASSWORD_DEFAULT);
         $sql= "insert into `users` (username, email, password) values ('$username','$email', '$password' )";
         $result= mysqli_query($conn, $sql);
         if($result){
-            echo 'User Registered';
+            header('location:bio-data.php');
         }else{
            die(mysqli_error($con));
         }
@@ -50,13 +50,13 @@ if (isset($_POST['submit'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="/styles/register.css">
+    <link rel="stylesheet" href="assets/styles/register.css">
 </head>
 <body>
-    
+    <div class="img"></div>
     <form action="" method="post">
-        <h2>RE-IDEA</h2>
-        <h3>Register Account</h3>
+        <h2>RE-IDEA</h2
+        
         <label for="email">Email:</label><br>
         <input type="email"  name="email" id=""><br>
         <label for="name" >Username:</label><br>
