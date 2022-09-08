@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once './config/database.php';
+require_once 'assets/config/database.php';
 
 if (isset($_POST[ 'submit' ])) {
     $first_name = $_POST[ 'first_name' ];
@@ -27,7 +27,7 @@ if (isset($_POST[ 'submit' ])) {
         <meta charset = 'UTF-8'>
         <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
         <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
-        <link rel = 'stylesheet' href = 'style.css'>
+        <link rel = 'stylesheet' href = 'assets/styles/biodata.css'>
         <title>Bio-Data Form</title>
     </head>
     <body>
