@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(102, 171, 236);
+}
+
+.Ota {
+  border: 3px solid black;
+  width: 460px;
+  height: 360px;
+  background-color: rgb(202, 200, 189);
+  border-radius: 30px;
+}
+
+.sector {
+  margin: 0 auto;
+  width: 70px;
+  margin-top: 23vh;
+  margin-right: 140vh;
+}
+
+.sta {
+  text-align: center;
+}
+
+.browse-OTB {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(19, 45, 100);
+  border: 1px solid black;
+  font-size: 58px;
+  background-color: rgb(80, 185, 255);
+  position: relative;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 0px 35px;
+}
+
+.browse-OTB:hover {
+  background-color: rgb(38, 174, 192);
+  transition: 0.9s;
+}
+
+.Drag-OTB {
+  font-size: 53px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transition: 1s;
+  color: rgb(19, 45, 100);
+}/*# sourceMappingURL=login.css.map */
