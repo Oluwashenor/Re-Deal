@@ -1,42 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400&display=swap');
 
-        body{
-            background-color:lightgray
-        }
-        form{
-            margin: 0 auto;
-            width: 40vh;
-            margin-top: 20vh;
-            box-sizing: border-box;
-        }
-        h3{
-            font-family:'Courier New', Courier, monospace;
-        }
-        button{
-            margin-top: 10px;
-            cursor: pointer;
-            background-color: gray;
-            color:white ;
-            border: none;
-            height: 30px;
-            border-radius: 10px;
-            width: 78%;
 
-        }
-        a{
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
-            color: brown;
-        }
-        button:hover{
-            background-color: whitesmoke;
-            color: black;
-            font-weight: bold;
-            transition: .4s ease-in;
-        }
-        input{
-            border-radius: 4px;
-            height: 20px;
-            
-        }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(/Re-Idea/kai-dahms-FB_xKJOLsfI-unsplash.jpg);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+ 
+img{
+    image-resolution: 320px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.sign-up{
+    border-radius: 90px;
+   background-color: transparent;
+    width: 540px;
+    text-align: center;
+    margin-top: 115px;
+    margin-left: 370px;
+    height: 350px;
+    
+   
+}
+
+.Enter{
+  
+    margin-top: 3em;
+}
+
+h3{
+    font-size: 60px;
+    color: cornsilk;
+}
+
+
+input{
+    border-radius:6px;
+    width: 260px;
+    height: 36px;
+    border-style: none;
+   
+}
+input[type="email"]{
+    margin-top:15px;
+}
+
+input[type="password"]{
+    margin-top: 15px;
+}
+
+button{
+    margin-top:19px;
+    width: 260px;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    background-color:rgb(11, 168, 168);
+    cursor: pointer;
+    
+}
+
+a{ 
+    color: rgb(29, 118, 190);
+    text-decoration: none;
+}
+a{
+    content: '';
+    width:0%;
+    height: 2px;
+   
+}
+a:hover{
+    width: 20%;
+    content: '';
+    color: rgb(53, 160, 49);
+    height: 2px;
+    transition: 0.8s;
+   
+   
+}
+
+fieldset{
+   height: 25.6em;
+   width: 22em;
+   margin-left: 5.5em;
+   border-radius: 30px;
+   margin-top: -2.15em;
+   border: 0.1px solid white;
+}
+.register-cta{
+    margin-top: 16px;
+    color: cornsilk;
+   
+}

@@ -21,7 +21,7 @@ if($stmt_result->num_rows > 0){
     echo "<script>alert('Invalid email')</script>";
 }
 
-}
+} 
 
 ?>
 
@@ -35,28 +35,31 @@ if($stmt_result->num_rows > 0){
     <link rel="stylesheet" href="assets/styles/login.css">
 </head>
 <body>
+    <div class="sign-up">
     <form method="post" >
-<h3>Login</h3>
-<label for="">Email:</label><br>
-<input type="email" name="email" id=""><br>
 
-<label for="">Password</label><br>
-<input type="password" name="password" id=""><br>
+
+        <fieldset>
+
+
+<legend><h3>Login</h3></legend>
+
+<img src="/Re-Idea/user (1).png" alt=""><br>
+
+<input type="email" name="email" id="" placeholder="Email"><br>
+
+
+<input type="password" name="password" id="" placeholder="Password"><br>
 
 <button name="submit">Submit</button><br>
-<p>No Account Yet? <a href="register.php" class="Register">Register</a></p>
-<a href="forgot.php" class="register">Forgot Password?</a>
+<p class="register-cta">No Account Yet? <a href="/Re-Idea/register.html" >Register</a></p>
+ <p class="register-cta."><a href="forgot.php">Forgot Password?</a></p>
 
-
-
-
-
-
-
+</fieldset>
 
     </form>
 
-
+</div>
     
 </body>
 </html>
